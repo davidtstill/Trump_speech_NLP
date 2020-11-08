@@ -1,1 +1,1 @@
-##Performing Sentiment Analysis on Trump Campaign Speeches
+## Performing Sentiment Analysis on Trump Campaign Speeches
