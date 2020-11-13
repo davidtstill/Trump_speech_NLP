@@ -27,7 +27,8 @@ Pros:
 Cons:
 - Misspellings and grammatical mistakes can cause the analysis to overlook words or usage
 
-For more information here is a great article: https://www.codeproject.com/Articles/5269447/Pros-and-Cons-of-NLTK-Sentiment-Analysis-with-VADE
+For more information here is a great article on the pros and cons of the VADER model:
+https://www.codeproject.com/Articles/5269447/Pros-and-Cons-of-NLTK-Sentiment-Analysis-with-VADE
 
 Lastly, I generated sentiment scores for each speech, appended them to empty lists, and then attached the sentiment scores to new DataFrame. This DataFrame was combined with the orignal DataFrame:
 
@@ -35,4 +36,18 @@ Lastly, I generated sentiment scores for each speech, appended them to empty lis
 
 ## Conclusion:
 
-The speeches were largely rated as "neutral" 
+To my surprise the speeches were largely rated as "neutral". 
+
+The VADER model scores text using percentages with positive, neutral and negative = 100%. The average scores for each text were:
+
+- 17.9% positive	
+- 72.4% neutral	
+- 9.7% negative
+
+Below is a plot showing how there was not much variation in the scoring among the 35 speeches:
+
+![alt text](images/sentiment_analysis.png)
+
+## Visualizing Trump's campaign speeches with a world cloud
+
+![alt text](images/word_cloud.png)
