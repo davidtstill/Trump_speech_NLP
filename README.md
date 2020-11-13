@@ -1,4 +1,4 @@
-# Performing Sentiment Analysis on Generating a Wordcloud Trump Campaign Speeches
+# Performing Sentiment Analysis on 35 Trump Campaign Speeches and Generating a Wordcloud 
 
 Kaggle provides a number of great datasets. I found someone that posted 35 of Trump's campaign speeches in 2019 and 2020. Given how close the election was and how divisive Trump is considered by many, I thought it would be interesting to perform NLP and sentiment analysis on the speeches. 
 
@@ -31,7 +31,7 @@ For more information here is a great article: https://www.codeproject.com/Articl
 
 Lastly, I generated sentiment scores for each speech, appended them to empty lists, and then attached the sentiment scores to new DataFrame. This DataFrame was combined with the orignal DataFrame:
 
-![alt text](Images/combined_df.png)
+![alt text](images/combined_df.png)
 
 ## Conclusion:
 
