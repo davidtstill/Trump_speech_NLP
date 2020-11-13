@@ -41,7 +41,7 @@ Lastly, I generated sentiment scores for each speech, appended them to empty lis
 
 To my surprise the speeches were largely rated as "neutral". 
 
-The VADER model scores text using percentages with positive, neutral and negative = 100%. The average scores for each text were:
+The VADER model scores text using scores the postivity, negativity and neutrality of each article by assigning a percentage. The three numbers combined must equal 100%. The average scores for each text were:
 
 - 17.9% positive	
 - 72.4% neutral	
@@ -52,5 +52,9 @@ Below is a plot showing how there was not much variation in the scoring among th
 ![alt text](images/sentiment_analysis.png)
 
 ## Visualizing Trump's campaign speeches with a world cloud
+
+The WordCloud highlights how Trump's most commonly used words are shorter in length. This is confirmed by an article from dictionary.com![Text here](https://www.dictionary.com/e/s/trumps-favorite-words-trump-speak/#the-unique-vocabulary-of-donald-j-trump):
+
+"As President, Trump receives a lot of attention for his use of words—especially since he continues to hold campaign rallies. In Trump and Us: What He Says and Why People Listen, professor Roderick Hart argues that Trump “turned the rant into an art form,” and relies on using both a lot of words and short words to convey his point."
 
 ![alt text](images/word_cloud.png)
