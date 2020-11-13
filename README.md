@@ -15,6 +15,8 @@ I then converted cleaned the text by removing punctuations:
 
 ![alt text](images/clean_df.png)
 
+Now the text is clean enough to perform the analysis. 
+
 # Steps Taken to Perform the Sentiment Analysis
 
 The analyis was performed using the NLKT (Natural Language Tool Kit), a popular Python library used to analyze human language data. Within the NLTK library there is a popular model called VADER (Valence Aware Dictionary And Sentiment Reasoner), which uses a lexical approach to analyze text. Words are labeled according to their semantic orientation as either positive or negative and the VADER provides an overall assessment of how positive or negative is the sentiment.
