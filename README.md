@@ -30,6 +30,7 @@ Cons:
 - Misspellings and grammatical mistakes can cause the analysis to overlook words or usage
 
 For more information here is a great article on the pros and cons of the VADER model:
+
 https://www.codeproject.com/Articles/5269447/Pros-and-Cons-of-NLTK-Sentiment-Analysis-with-VADE
 
 Lastly, I generated sentiment scores for each speech, appended them to empty lists, and then attached the sentiment scores to new DataFrame. This DataFrame was combined with the orignal DataFrame:
