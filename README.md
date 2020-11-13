@@ -41,11 +41,13 @@ Lastly, I generated sentiment scores for each speech, appended them to empty lis
 
 To my surprise the speeches were largely rated as "neutral". 
 
-The VADER model scores text using scores the postivity, negativity and neutrality of each article by assigning a percentage. The three numbers combined must equal 100%. The average scores for each text were:
+The VADER model scores text using scores the postivity, negativity and neutrality of each article by assigning a percentage. The three numbers combined must equal 100%. The average scores for each speech were:
 
 - 17.9% positive	
 - 72.4% neutral	
 - 9.7% negative
+
+![alt text](images/describe_df.png)
 
 Below is a plot showing how there was not much variation in the scoring among the 35 speeches:
 
