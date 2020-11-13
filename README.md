@@ -9,11 +9,11 @@ The Kaggle dataset provided 35 text documents with each text document containing
 
 I read in the the individual speeches, converting each speech into one large, concatenated string, and stored them into a DataFrame:
 
-![alt text](Images/original_df.png)
+![alt text](images/original_df.png)
 
 I then converted cleaned the text by removing punctuations:
 
-![alt text](Images/clean_df.png)
+![alt text](images/clean_df.png)
 
 # Steps Taken to Perform the Sentiment Analysis
 
