@@ -51,9 +51,9 @@ Below is a plot showing how there was not much variation in the scoring among th
 
 ![alt text](images/sentiment_analysis.png)
 
-## Visualizing Trump's campaign speeches with a world cloud
+## Visualizing Trump's Campaign Speeches with a WordCloud
 
-The WordCloud highlights how Trump's most commonly used words are shorter in length. This is confirmed by an article from dictionary.com![Text here](https://www.dictionary.com/e/s/trumps-favorite-words-trump-speak/#the-unique-vocabulary-of-donald-j-trump):
+The WordCloud highlights how Trump's most commonly used words are ones we see in the media such as "win", "China" and "great". The WordCloud also illustrates how Trump's campaign speeches contain words that are shorter in length. This is confirmed by an article that quotes an author who says that Trump does this on purpose to drive his point [dictionary.com!](https://www.dictionary.com/e/s/trumps-favorite-words-trump-speak/#the-unique-vocabulary-of-donald-j-trump):
 
 "As President, Trump receives a lot of attention for his use of words—especially since he continues to hold campaign rallies. In Trump and Us: What He Says and Why People Listen, professor Roderick Hart argues that Trump “turned the rant into an art form,” and relies on using both a lot of words and short words to convey his point."
 
